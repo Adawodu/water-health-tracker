@@ -1,61 +1,36 @@
-# Water Health Tracker
+# Water Health Tracker 💧
 
-A cross-platform application for tracking daily water intake, built with React Native and Expo. The app integrates with HealthKit on iOS devices and provides a web interface with local storage support for other platforms.
+A simple, elegant water intake tracker built with React Native and Expo. Track your daily hydration with seamless HealthKit integration on iOS and local storage on web.
 
 ## Features
 
-- Track daily water intake
-- Integration with Apple HealthKit (iOS)
-- Web support with local storage
-- Beautiful, responsive UI
-- Cross-platform compatibility (iOS, Web)
+- 📱 Cross-platform (iOS + Web)
+- 🔄 Real-time water intake tracking
+- 📊 HealthKit integration (iOS)
+- 💾 Local storage persistence (Web)
+- 🎨 Clean, modern UI
 
-## Technologies Used
+## Quick Start
 
-- React Native
-- Expo
-- TypeScript
-- Apple HealthKit
-- Local Storage (Web)
-
-## Getting Started
-
-1. Clone the repository
 ```bash
-git clone <repository-url>
-cd water-health-tracker
-```
-
-2. Install dependencies
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development server
-```bash
+# Start development server
 npm start
+
+# Run on web
+Press 'w'
+
+# Run on iOS
+Press 'i'
 ```
 
-4. Run on your preferred platform:
-- Press `i` to run on iOS simulator
-- Press `w` to run in web browser
-- Scan QR code with Expo Go app to run on your device
+## Tech Stack
 
-## Development
+- React Native + Expo
+- TypeScript
+- HealthKit API
+- Web Storage API
 
-The project uses TypeScript and follows a feature-based directory structure:
-
-```
-src/
-  ├── features/
-  │   └── water-tracking/
-  │       └── WaterIntake.tsx
-  ├── hooks/
-  │   └── useHealthKit.ts
-  └── services/
-      └── HealthKitService.ts
-```
-
-## License
-
-MIT
+Built with ❤️ using modern web technologies
